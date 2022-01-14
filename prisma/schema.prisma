@@ -2,23 +2,18 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["dataProxy"]
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgres"
   url      = env("DATABASE_URL")
 }
 
-model Log {
-  id      String @id @default(cuid())
-  level   Level
-  message String
-  meta    Json
-}
-
-enum Level {
-  Info
-  Warn
-  Error
+model Quote {
+  id        String   @id @default(cuid())
+  message   String
+  author    String
+  createdAt DateTime @default(now())
 }
