@@ -4,6 +4,9 @@ Deployed app: [https:prisma-cf-workers.ruheni.workers.dev](https:prisma-cf-worke
 
 Endpoints:
 
-- **GET `/quotes`** - return all quotes
-- **POST `/quotes`** - create a new quote
-- **GET  `/quotes/:id`**– return a quote by id
+## `GET`
+- `/quotes`- return all quotes
+-  `/quotes/:id`– return a quote by id
+## `POST`
+
+- POST `/quotes` - create a new quote
