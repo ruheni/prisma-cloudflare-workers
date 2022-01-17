@@ -13,7 +13,7 @@ datasource db {
 
 model Quote {
   id        String   @id @default(cuid())
-  message   String
+  content   String
   author    String
   createdAt DateTime @default(now())
 }

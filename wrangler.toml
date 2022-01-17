@@ -1,9 +1,8 @@
 name = "prisma-cf-workers"
 type = "webpack"
+webpack_config = "webpack.config.js"
 route = ''
 zone_id = ''
 usage_model = ''
-compatibility_flags = []
 workers_dev = true
-compatibility_date = "2022-01-10"
-webpack_config = "webpack.config.js"
+compatibility_date = "2022-01-17"
