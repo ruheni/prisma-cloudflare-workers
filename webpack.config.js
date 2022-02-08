@@ -9,11 +9,11 @@ module.exports = {
   // Cloudflare Worker environment is similar to a webworker
   target: 'webworker',
   resolve: {
-    extensions: ['.ts', '.tsx', '.js'],
-   // Alias for resolving the Prisma Client properly
-   alias: {
-     '@prisma/client$': require.resolve('@prisma/client'),
-   },
+    extensions: [ '.ts', '.tsx', '.js' ],
+    // Alias for resolving the Prisma Client properly
+    alias: {
+      
+    },
   },
   mode: 'development',
   // Wrangler doesn't like eval which devtools use in development.
