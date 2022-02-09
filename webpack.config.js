@@ -12,7 +12,7 @@ module.exports = {
     extensions: [ '.ts', '.tsx', '.js' ],
     // Alias for resolving the Prisma Client properly
     alias: {
-      
+      '@prisma/client$': require.resolve('@prisma/client'),
     },
   },
   mode: 'development',
