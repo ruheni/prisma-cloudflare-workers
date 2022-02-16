@@ -1,6 +1,6 @@
 # Prisma + Cloudflare Workers
 
-Deployed app: [https//prisma-cf-workers.ruheni.workers.dev](https//prisma-cf-workers.ruheni.workers.dev)
+Deployed app: [https://prisma-cf-workers.ruheni.workers.dev](https://prisma-cf-workers.ruheni.workers.dev)
 
 Endpoints:
 
